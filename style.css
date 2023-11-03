@@ -18,7 +18,10 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Containers */
@@ -33,7 +36,7 @@ article {
 }
 
 article div {
-  text-align: center;
+  
   width: 100%;
 }
 
@@ -57,7 +60,7 @@ nav a {
 
 /* Images */
 img {
-  width: 100%;
+  
   max-width: 200px;
   height: auto;
 }
@@ -66,6 +69,34 @@ img {
   border: 2px solid #003049;
   border-radius: 50%;
 }
+
+
+.about {
+	display:flex;
+}
+
+.projects {
+	display: flex;
+}
+
+.pro-txt {
+	line-height: 1.5;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pro1{
+	padding: 0px 5px;
+}
+
+.pro2 {
+	padding: 0px 5px;
+}
+
+.pro3 {
+	padding: 0px 5px;
+}
+
 
 /* Footer */
 footer {
